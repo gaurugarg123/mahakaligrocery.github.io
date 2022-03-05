@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*navbar css start*/
+.navbar{
+    background-color: #3b844c;
+}
+.pclogo{
+    width: 75px;
+    margin-left: 17px;
+}
+.navbar-nav li{
+        padding: 0 10px;
+    }
+    .navbar-nav li a{
+        color: #fff!important;
+        font-weight: 600;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+   
+    }
+    /*media start*/
+    @media(max-width: 600px)
+    {
+        .navbar{
+        background-color:#99e265;
+      }
+    /* navbar media end*/
+
+    /*navbar css end*/
+    .uu{
+        text-transform: capitalize;
+    }

@@ -1,0 +1,68 @@
+*{
+		margin: 0;
+		padding: 0;
+	}
+	/*navbar css start*/
+.navbar{
+    background-color: #3b844c;
+}
+.pclogo{
+    width: 75px;
+    margin-left: 17px;
+}
+.navbar-nav li{
+        padding: 0 10px;
+    }
+    .navbar-nav li a{
+        color: #fff!important;
+        font-weight: 600;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+   
+    }
+    /*media start*/
+    @media(max-width: 600px)
+    {
+        .navbar{
+        background-color:#99e265;
+      }
+    /* navbar media end*/
+
+    /*navbar css end*/
+
+    /*footer css*/
+    .mainfooter{
+        margin: 0;
+        padding: 0;
+        background: #020306f0;
+    }
+    .footerlogo{
+        width: 250px;
+        height: 250px;
+        margin-top: 34px;
+    }
+    .footercontectus{
+        margin-top: 20px;
+        color: #99e265;
+        letter-spacing: 3px;
+        word-spacing: 2px;
+    }
+    .footerpra{
+            text-transform: capitalize;
+            color: white;
+            line-height: 24px;
+            font-size: 20px;
+            letter-spacing: 1px;
+    }
+    .icons{
+        font-size: 2em;
+    }
+    .endfooter{
+            margin: 0;
+            padding: 0;
+            background: #000;
+        }
+    /*footer css end*/
+    
+    
